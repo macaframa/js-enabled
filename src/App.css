@@ -6,42 +6,84 @@
   padding: 1rem 2rem;
 }
 
-.flex-example {
-  font-size: 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  background-color: blue;
-  padding: 10px 20px;
-  border: 10px white solid;
-  margin: 20px 10px;
-}
-
 .food-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .food-card {
   display: flex;
-  width: 25vw;
+  flex-direction: column;
+  width: 22%;
+  margin: 15px;
   position: relative;
-  margin: 30px 10px;
-  padding: 10px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.food-favorite-container {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 5px 7px;
+  border-radius: 50px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.food-favorite {
+  font-size: x-large;
+  color: white;
+}
+
+.food-favorite.liked {
+  color: #f84c64;
 }
 
 .food-card .food-image {
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
   width: 100%;
 }
 
 .food-image img {
-  max-width: 480px;
+  width: 100%;
+  min-height: 300px;
+  max-height: 300px;
+}
+
+.food-info {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  min-height: 150px;
   max-height: 150px;
+}
+
+.food-description {
+  overflow: hidden;
+}
+
+.food-price {
+  margin-top: auto;
+}
+
+@media screen and (max-width: 1500px) {
+  .food-card {
+    width: 30%;
+  }
+  .food-image img {
+    min-height: 17vh;
+    max-height: 17vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .food-card {
+    width: 100%;
+  }
+  .food-image img {
+    min-height: unset;
+    max-height: unset;
+  }
 }
