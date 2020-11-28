@@ -1,0 +1,53 @@
+{
+    "food": [
+        {
+            "name": "Waffle Cone", 
+            "url": "https://cdn.trendhunterstatic.com/phpthumbnails/226/226496/226496_1_600.jpeg", 
+            "description": "a pie in a cone",
+            "price": "3.99",
+            "currency": "USD"
+        },
+        {
+            "name": "Egg Recipe", 
+            "url": "https://cdn.trendhunterstatic.com/phpthumbnails/318/318209/318209_1_600.jpeg", 
+            "description": "an egg in a bread wrapped in paper",
+            "price": "5.99",
+            "currency": "USD"
+        },
+        {
+            "name": "Child eating wrap", 
+            "url": "https://cdn.trendhunterstatic.com/thumbs/examples-of-handheld-food.jpeg", 
+            "description": "food for kid",
+            "price": "4.99",
+            "currency": "USD"
+        },
+        {
+            "name": "Chicken and Waffle", 
+            "url": "https://cdn.trendhunterstatic.com/phpthumbnails/249/249846/249846_1_600.jpeg", 
+            "description": "a waffle as sandwich",
+            "price": "3.21",
+            "currency": "USD"
+        },
+        {
+            "name": "Meat burger", 
+            "url": "https://i.pinimg.com/originals/c7/43/60/c743609d71e3324cc2a29207e4242906.jpg", 
+            "description": "pork sandwich",
+            "price": "4.86",
+            "currency": "USD"
+        },
+        {
+            "name": "Chicago burger", 
+            "url": "https://urbanmatter.com/chicago/wp-content/uploads/2018/08/27657746_10156131125659313_4643428166027022712_n.jpg", 
+            "description": "a special bread is to lure customers",
+            "price": "9.54",
+            "currency": "USD"
+        },
+        {
+            "name": "Tacos", 
+            "url": "https://www.sbs.com.au/food/sites/sbs.com.au.food/files/styles/full/public/arepas.jpg?itok=jh_nXtv2", 
+            "description": "colourful tacos",
+            "price": "8.43",
+            "currency": "USD"
+        }
+    ]
+}
