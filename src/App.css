@@ -17,6 +17,7 @@
   display: flex;
   flex-direction: column;
   width: 22%;
+  max-width: 500px;
   margin: 15px;
   position: relative;
   border: 1px solid black;
@@ -48,7 +49,7 @@
 
 .food-image img {
   width: 100%;
-  min-height: 300px;
+  height: 14vw;
   max-height: 300px;
 }
 
@@ -58,6 +59,12 @@
   padding: 15px;
   min-height: 150px;
   max-height: 150px;
+}
+
+.food-name {
+  border-bottom: 1px solid;
+  padding: 5px;
+  margin: 0;
 }
 
 .food-description {
@@ -70,11 +77,19 @@
 
 @media screen and (max-width: 1500px) {
   .food-card {
-    width: 30%;
+    width: 29%;
   }
   .food-image img {
-    min-height: 17vh;
-    max-height: 17vh;
+    height: 20vh;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .food-card {
+    max-width: unset;
+  }
+  .food-image img {
+    height: 14vh;
   }
 }
 
@@ -85,5 +100,6 @@
   .food-image img {
     min-height: unset;
     max-height: unset;
+    height: unset;
   }
 }
